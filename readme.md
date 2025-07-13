@@ -34,12 +34,12 @@ python /path/to/main.py /path/to/csv
 ## 📝 CSV Format
 Required columns:
 ```csv
-episode,name,start_time,end_time
+episode,name,start time,end time
 ```
 
 Example (`cuts.csv`):
 ```csv
-episode,name,start_time,end_time
+episode,name,start time,end time
 1,Intro,00:00:05.500,00:00:15.200
 2,Action Scene,00:01:30,00:02:45.750
 1,Outro,00:10:00,00:11:20
