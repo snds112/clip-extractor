@@ -25,7 +25,7 @@ videos/                 # Source videos (must match episode numbers)
 ├── 2.mov               # Episode 2
 └── cuts.csv            # Clip definitions (not necessarily in the video folder)
 ```
-## 📂 Example Command
+## ⚡ Example Command
 ```
 cd /path/to/video/folder
 python /path/to/main.py /path/to/csv
