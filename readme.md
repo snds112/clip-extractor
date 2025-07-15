@@ -13,8 +13,6 @@ A Python script that uses FFmpeg to extract precise clips from video files based
 ## 📋 Requirements
 - Python 3.6+
 - **[FFmpeg](https://ffmpeg.org/)** installed and in system PATH
-  - On Windows: `choco install ffmpeg`
-  - On Mac: `brew install ffmpeg`
   - On Linux: `sudo apt install ffmpeg`
 
 ## 📂 Example Folder Structure
@@ -58,7 +56,7 @@ ffmpeg -n -ss HH:MM:SS -to HH:MM:SS  -i /path/to/video -reset_timestamps 1 -map 
 
 ## 🎬 Output
 - Creates `clips/` directory if missing
-- Output files: `{episode}_{name}.{original_extension}`
+- Output files: `{name}.{original_extension}`
 - Preserves:
   - Original video/audio codecs (`-c:v copy -c:a copy`)
   - Metadata
