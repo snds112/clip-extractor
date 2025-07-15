@@ -56,7 +56,7 @@ ffmpeg -n -ss HH:MM:SS -to HH:MM:SS  -i /path/to/video -reset_timestamps 1 -map 
 
 ## 🎬 Output
 - Creates `clips/` directory if missing
-- Output files: `{episode}_{name}.{original_extension}`
+- Output files: `{name}.{original_extension}`
 - Preserves:
   - Original video/audio codecs (`-c:v copy -c:a copy`)
   - Metadata
