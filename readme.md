@@ -13,8 +13,6 @@ A Python script that uses FFmpeg to extract precise clips from video files based
 ## 📋 Requirements
 - Python 3.6+
 - **[FFmpeg](https://ffmpeg.org/)** installed and in system PATH
-  - On Windows: `choco install ffmpeg`
-  - On Mac: `brew install ffmpeg`
   - On Linux: `sudo apt install ffmpeg`
 
 ## 📂 Example Folder Structure
