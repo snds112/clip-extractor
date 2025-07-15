@@ -2,7 +2,7 @@
 
 # Video Clip Extractor (FFmpeg)
 
-A Python script that uses FFmpeg to extract precise clips from video files based on timestamps defined in a CSV file.
+A Python script that uses FFmpeg to extract precise clips from video files based on timestamps defined in a .csv, .xlsx, or .xls file.
 
 ## 🚀 Key Features
 - Uses FFmpeg for high-performance video cutting
@@ -29,9 +29,9 @@ cd /path/to/video/folder
 python /path/to/main.py /path/to/csv
 ```
 
-## 📝 CSV Format
+## 📝 File Format
 Required columns:
-```csv
+```
 episode,name,start time,end time
 ```
 
